@@ -63,12 +63,12 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    margin: 0px 0px 0px 40px;
+    justify-content: left;
+    margin: 0px 0px 0px 60px;
     padding: auto;
-    width: 55%;
+    width: 45%;
     height: auto;
     float: left;
-    align-items: center;
 }
 
 .img {
@@ -95,4 +95,7 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 5px;
+}
+.message-right {
+    justify-content: flex-end;
 }
