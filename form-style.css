@@ -37,13 +37,17 @@ body {
 .inputText {
     margin-bottom: 15px;
     width: 200px;
-    height: 40px;
+    min-height: 40px;
+    height: auto;
+    padding: 10px;
     border-radius: 7px;
     border: none;
+    outline: none;
 }
 
 .inputText:hover {
     border: 1px solid #008eda;
+
 }
 
 .requestBtn {
